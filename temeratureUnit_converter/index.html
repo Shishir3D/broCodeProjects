@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="result-container">
+        <div class="result">
+            <div style="display: flex; justify-content: flex-end; width: 95%; margin-top: -18px; cursor: pointer;">
+                <div style="width: 18px; height: 18px; border-radius: 100%; border: 1px solid white; font-size: 16px; text-align: center;">x</div>
+            </div>
+            <p id="result">45 degrees</p>
+        </div>
+    </div>
+
+    <div class="container">        
+        <form>
+            <h1 style="user-select: none;">Temperature Converter</h1>
+            
+            <input value="0" type="number" id="textbox"><br>
+        
+            <input type="radio" id="toCelcius" name="unit">
+            <label for="toCelcius" style="cursor: pointer; user-select: none;">Farenheit to Celcius</label><br>
+
+            <input type="radio" id="toFarenheit" name="unit">
+            <label for="toFarenheit" style="cursor: pointer; user-select: none;">Celcius to Farenheit</label><br>
+
+            <button type="button" onclick="convert()">Submit</button>
+        </form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
