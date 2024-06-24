@@ -62,11 +62,12 @@ button:active{
     color: white;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 2em;
+    transition: transform 0.5s ease-in;
 }
 
 .result-container{
