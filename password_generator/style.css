@@ -1,0 +1,48 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.head-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100vw;
+}
+.container{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.central-card{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 20px;
+    flex-direction: column;
+    border: 2px solid black;
+    height: 40vh;
+    width: 40vh;
+}
+
+.random-pass{
+    height: 30px;
+    width: 80%;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+#randomPassword{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.reload-btn{
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
