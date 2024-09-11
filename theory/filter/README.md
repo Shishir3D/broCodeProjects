@@ -2,7 +2,9 @@
 
 ## This method creats a new array by filtering out elements
 
-```
+> Example
+
+```js
 const ages = [16, 17, 18, 19, 20, 60];
 
 let adults = ages.filter(isAdult);
