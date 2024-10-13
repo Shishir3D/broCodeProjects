@@ -1,4 +1,4 @@
-# .reduct()
+# .reduce()
 
 ## It reduces the element of an array to a single value
 
